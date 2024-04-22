@@ -1,0 +1,19 @@
+https://www.unison.io/how-it-works
+https://rotundasoftware.com/about
+https://medium.com/version-1/node-js-app-with-nunjucks-part-5-09f7481ee199
+
+todo:
+router
+logo
+tailwind cnfg
+burgermenu
+botones
+hero
+nav
+
+
+cards de seleccion de challenge
+hacerlos con OOP
+framer - sumar animaciones
+
+hacer cursito de nunjucks
