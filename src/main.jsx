@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import './index.css'
 import Home from './pages/Home'
-import Task1 from './pages/Task1'
-import Task2 from './pages/Task2'
 import Layout from './components/Layout'
+import ZoochatPage from './pages/Zoochat'
+import UrlparserPage from './pages/Urlparser'
 
 const router = createBrowserRouter([
   {
@@ -17,18 +17,18 @@ const router = createBrowserRouter([
     )
   },
   {
-    path: '/task-1',
+    path: '/zoochat',
     element: (
       <Layout>
-        <Task1 />
+        <ZoochatPage />
       </Layout>
     )
   },
   {
-    path: '/task-2',
+    path: '/urlparser',
     element: (
       <Layout>
-        <Task2 />
+        <UrlparserPage />
       </Layout>
     )
   }

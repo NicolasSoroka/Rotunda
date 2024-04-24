@@ -33,7 +33,7 @@ const BurgerMenu = () => {
   return (
     <>
       <div
-        className={`absolute flex justify-center left-0 items-center  w-full h-dvh bg-slate-500 transition-all duration-700
+        className={`absolute flex justify-center left-0 items-center w-full h-dvh bg-slate-500 transition-all duration-700
           ${
             isBurgerMenuOpen
               ? 'top-0 opacity-90 flex z-50'
@@ -48,13 +48,13 @@ const BurgerMenu = () => {
         </span>
         <ul className='flex flex-col text-center text-white font-bold uppercase gap-y-2 '>
           <li className='hover:text-slate-800' onClick={handleMenuOpen}>
-            <Link className='px-4 py-2' to='/task-1'>
-              Task 1
+            <Link className='px-4 py-2' to='/zoochat'>
+              Zoo chat
             </Link>
           </li>
           <li className='hover:text-slate-800' onClick={handleMenuOpen}>
-            <Link className='px-4 py-2' to='/task-2'>
-              Task 2
+            <Link className='px-4 py-2' to='/urlparser'>
+              URL Parser
             </Link>
           </li>
         </ul>

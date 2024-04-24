@@ -1,6 +1,7 @@
 https://www.unison.io/how-it-works
 https://rotundasoftware.com/about
 https://medium.com/version-1/node-js-app-with-nunjucks-part-5-09f7481ee199
+docs de nunjucks
 
 todo:
 router
@@ -13,7 +14,5 @@ nav
 
 
 cards de seleccion de challenge
-hacerlos con OOP
-framer - sumar animaciones
+animaciones
 
-hacer cursito de nunjucks

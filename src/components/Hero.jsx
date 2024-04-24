@@ -14,17 +14,17 @@ const Hero = () => {
   heroText = heroText[0].toUpperCase() + heroText.slice(1)
 
   return (
-    <div className='flex flex-col items-center justify-center relative w-full h-[300px] md:h-[600px] bg-hero bg-cover bg-center'>
+    <div className='flex flex-col items-center justify-center relative w-full h-[300px] md:h-[500px] bg-hero bg-cover bg-center'>
       <span className='absolute flex w-full h-full bg-[#308cdb] bg-opacity-85'/>
 
-      <div className='flex relative items-center justify-between px-8 mt-4 h-[80px] w-full z-50'>
+      <div className='flex absolute top-0 items-center justify-between px-8 h-[80px] w-full z-50'>
         <Link to='/'>
-          <RotundaLogo color='white' size='200' />
+          <RotundaLogo color='white' size='150' />
         </Link>
         <BurgerMenu />
       </div>
 
-      <h1 className='flex relative h-full items-center justify-center w-full text-white text-4xl md:text-6xl font-semibold'>
+      <h1 className='flex relative h-full items-center justify-center w-full text-white text-2xl md:text-6xl font-semibold'>
         {heroText}
       </h1>
     </div>
